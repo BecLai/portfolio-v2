@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    color: #555555;
+    font-family: 'Open Sans', 'Tahoma', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.flex-container {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+    -webkit-flex-direction: column
+    flex-direction: column;
+    margin: 0px;
+}
+
+.flex-item {
+    height: 100%;
+    width: 50%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column 
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.flex-text {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 25px;
+    margin: 50px;
+    /* background-color: #D8D8D8; */
+    border-radius: 5px;
+}
+
+.flex-text h1 {
+    text-align: center;
+    margin: 15px;
+}
+
+.flex-text p {
+    text-align: center;
+    margin: 10px;
+    width: 70%;
+}
+
+.flex-img {
+    display: -webkit-flex;
+    display: flex;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 65%;
+    max-height: 65%;     
+}
+
+.flex-full {
+    height: 100%;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column 
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.timeline {
+    margin: 75px;
+    height: 5px;
+    border-radius: 10px;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #555555;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    background-color: gray;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.timeline-segment {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row; 
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.timeline-item {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: #555555;
+    text-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.timeline-item p {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+div.timeline-item:hover {
+    background-color: yellow;
+}
+
+.timeline-container {
+    display: -webkit-flex;
+    display: flex; 
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+    top: 100px;
+    left: 0;
+    position: fixed;
+    z-index: 2000;
+}
+
+.timeline-bg {
+    display: -webkit-flex;
+    display: flex;
+    background-color: rgba(255,255,255,0.5);
+    height: 50px;
+    border-radius: 5px;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    /* visibility: hidden; */
+}
+
+.right-align {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-align-items: flex-end;
+    align-items: flex-end; 
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-red {
+    background-color: #EF4136;
+}
+
+.bg-darkblue {
+    background-color: #2E3192;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow( -5px -5px 5px #777 );
+    filter: drop-shadow( -5px -5px 5px #777 ); /* Same syntax as box-shadow */
+}

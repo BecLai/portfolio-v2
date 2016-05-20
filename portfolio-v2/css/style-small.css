@@ -1,0 +1,67 @@
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	.flex-container {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-align-items: stretch;
+		align-items: stretch;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.flex-item {
+		width: 100%;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column; 
+		flex-direction: column;
+		-webkit-align-items: center;
+		align-items: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+	}
+
+	h1 {
+		font-size: 42px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	p {
+		font-size: 28px;
+		font-weight: 100;
+		text-align: center;
+	}
+
+	.flex-text {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+		-webkit-align-items: center;
+		align-items: center;
+		padding: 10px;
+		margin: 15px;
+		/* background-color: #D8D8D8; */
+		border-radius: 5px;
+	}
+
+	.flex-text h1 {
+		text-align: center;
+		margin: 25px;
+	}
+
+	.flex-text p {
+		text-align: center;
+		margin: 5px;
+		width: 90%;
+	}
+
+	.flex-img {
+		display: -webkit-flex;
+		display: flex;
+		min-width: 50%;
+		min-height: 50%;
+		max-width: 65%;
+		max-height: 65%;     
+	}
+}
